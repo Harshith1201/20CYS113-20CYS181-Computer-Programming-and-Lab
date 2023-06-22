@@ -1,0 +1,27 @@
+#include <stdio.h>
+int main (){
+int mul1,mul2
+struct complex{
+int real;
+int imaginary;
+}c1,c2,c3;
+
+printf("enter the real part off 1st number")
+scanf("%d",&c1.real);
+
+printf("enter the imaginary part off 1st number");
+scanf("%d",&c1.imaginary);
+
+printf("enter the real part off 2nd number");
+scanf("%d",&c2.real); 
+
+printf("enter the imaginary part off 2nd number");
+scanf("%d",&c2.imaginary);
+
+mul1 = ((c1.real)*(c2.real))
+mul2 = ((c1.imaginary)*(c2.imaginary))
+
+printf("the multiplied complex number is &d +i&d",mul1,mul2);
+
+return 0;
+}
