@@ -1,0 +1,37 @@
+#include <stdio.h>
+
+struct complex {
+    int real;
+    int imaginary;
+};
+
+int main() {
+    int mul1, mul2;
+    struct complex c1, c2, c3;
+
+    printf("Enter the real part of the 1st number: ");
+    scanf("%d", &c1.real);
+
+    printf("Enter the imaginary part of the 1st number: ");
+    scanf("%d", &c1.imaginary);
+
+    printf("Enter the real part of the 2nd number: ");
+    scanf("%d", &c2.real);
+
+    printf("Enter the imaginary part of the 2nd number: ");
+    scanf("%d", &c2.imaginary);
+
+    mul1 = (c1.real * c2.real);
+    mul2 = (c1.imaginary * c2.imaginary);
+
+    printf("The multiplied complex number is %d + i%d\n", mul1, mul2);
+
+    return 0;
+}
+
+
+
+
+
+/*corrections : added semicolons wherever required
+                declared structure differently */
